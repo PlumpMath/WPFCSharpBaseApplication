@@ -8,5 +8,6 @@ namespace WPFCSharpBaseApplication.Services
 {
     interface IService
     {
+        void Send(String message);
     }
 }

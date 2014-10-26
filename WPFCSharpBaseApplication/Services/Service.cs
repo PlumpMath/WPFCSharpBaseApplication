@@ -8,5 +8,9 @@ namespace WPFCSharpBaseApplication.Services
 {
     class Service : IService
     {
+        public void Send(string message)
+        {
+            Console.WriteLine(message);
+        }
     }
 }

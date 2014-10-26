@@ -6,5 +6,7 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         
+        <TextBox Width="200" Height="23" Text="{Binding BoundText, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}" />
+        
     </Grid>
 </Window>
